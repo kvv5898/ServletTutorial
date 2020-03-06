@@ -22,7 +22,7 @@ public class ForwardDemoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
  
-        // Получить значение параметра (parameter) на URL.
+        // Получить значение параметра (parameter) на URL. 1234
         String forward = request.getParameter("forward");
  
         if ("true".equals(forward)) {
